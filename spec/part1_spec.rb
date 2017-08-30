@@ -1,4 +1,5 @@
 require 'ruby_intro.rb'
+require 'spec_helper.rb'
 
 describe 'Ruby intro part 1' do
 

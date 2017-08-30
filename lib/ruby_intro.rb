@@ -9,14 +9,14 @@ def sum arr
 end
 
 def max_2_sum arr
-  total = 0
   if arr.length == 1
-    total = arr[0]
+    return arr[0]
   elsif arr.length > 1
     nums = arr.max(2)
-    total = nums[0] + nums[1]
+    return  nums[0] + nums[1]
+  else
+    return 0
   end
-  total
 end
 
 # MY WORK, class notes commented below

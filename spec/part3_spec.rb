@@ -1,4 +1,5 @@
 require 'ruby_intro.rb'
+require 'spec_helper.rb'
 
 describe "BookInStock" do
   it "should be defined" do
